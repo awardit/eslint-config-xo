@@ -121,6 +121,14 @@ module.exports = {
         allowTemplateLiterals: true,
       },
     ],
+    "react/jsx-indent": [
+      "error",
+      2,
+    ],
+    "react/jsx-indent-props": [
+      "error",
+      2,
+    ],
     "react/jsx-tag-spacing": [
       "error",
       {
