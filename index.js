@@ -114,6 +114,9 @@ module.exports = {
       {
         code: 100,
         comments: 80,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+        ignoreRegExpLiterals: true,
       },
     ],
     "no-case-declarations": "off",
