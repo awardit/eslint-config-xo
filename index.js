@@ -121,6 +121,7 @@ module.exports = {
         allowTemplateLiterals: true,
       },
     ],
+    "react/jsx-curly-newline": "off",
     "react/jsx-indent": [
       "error",
       2,
@@ -138,12 +139,14 @@ module.exports = {
         beforeClosing: "never",
       },
     ],
+    "react/prefer-read-only-props": "off",
     "unicorn/catch-error-name": [
       "error",
       {
         name: "e",
       },
     ],
+    "unicorn/prefer-query-selector": "off"
     "valid-jsdoc": "off",
   },
 };
