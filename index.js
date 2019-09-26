@@ -8,6 +8,7 @@ module.exports = {
   ],
   plugins: [
     "prefer-arrow",
+    "eslint-plugin-graphql",
   ],
   rules: {
     "brace-style": [
