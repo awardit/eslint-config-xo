@@ -1,3 +1,5 @@
+/* @flow */
+
 "use strict";
 
 module.exports = {
@@ -7,9 +9,16 @@ module.exports = {
     "xo-react",
   ],
   plugins: [
+    "import",
+    "unicorn",
     "prefer-arrow",
     "eslint-plugin-graphql",
   ],
+  settings: {
+    react: {
+      version: "16.8",
+    },
+  },
   rules: {
     "ava/use-test": "off",
     "brace-style": [
@@ -25,7 +34,7 @@ module.exports = {
         imports: "always-multiline",
         exports: "always-multiline",
         functions: "never",
-      }
+      },
     ],
     "flowtype/array-style-complex-type": [
       "error",
@@ -107,7 +116,7 @@ module.exports = {
     ],
     "object-curly-spacing": [
       "error",
-      "always"
+      "always",
     ],
     "prefer-arrow/prefer-arrow-functions": [
       "error",
@@ -115,7 +124,7 @@ module.exports = {
         disallowPrototype: false,
         singleReturnOnly: false,
         classPropertiesAllowed: true,
-      }
+      },
     ],
     quotes: [
       "error",
@@ -149,7 +158,7 @@ module.exports = {
         name: "e",
       },
     ],
-    "unicorn/prefer-query-selector": "off"
+    "unicorn/prefer-query-selector": "off",
     "valid-jsdoc": "off",
   },
 };
