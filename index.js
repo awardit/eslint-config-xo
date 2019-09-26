@@ -16,6 +16,7 @@ module.exports = {
       "error",
       "stroustrup",
     ],
+    "capitalized-comments": "warn",
     "comma-dangle": [
       "error",
       {
