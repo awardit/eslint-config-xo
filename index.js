@@ -36,6 +36,10 @@ module.exports = {
         functions: "never",
       },
     ],
+    eqeqeq: [
+      "error",
+      "smart",
+    ],
     "flowtype/array-style-complex-type": [
       "error",
       "verbose",
@@ -120,6 +124,7 @@ module.exports = {
       },
     ],
     "no-case-declarations": "off",
+    "no-eq-null": "off",
     "no-unused-vars": [
       "error",
       {
