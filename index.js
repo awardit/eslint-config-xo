@@ -81,7 +81,7 @@ module.exports = {
       "error",
       2,
       {
-        SwitchCase: 0,
+        SwitchCase: 1,
       },
     ],
     "lines-between-class-members": [
