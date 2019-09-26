@@ -1,6 +1,6 @@
 {
   "name": "@crossroads-loyalty-solutions/eslint-config-xo",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "ESLint shareable config for CLS base code style, to be used with eslint-config-xo",
   "main": "index.js",
   "scripts": {
