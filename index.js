@@ -75,6 +75,15 @@ module.exports = {
       "error",
       "expression",
     ],
+    "import/extensions": [
+      "error",
+      {
+        js: "never",
+        json: "always",
+        scss: "always",
+        svg: "always",
+      },
+    ],
     "import/no-unassigned-import": [
       "error",
       {
