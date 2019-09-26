@@ -37,7 +37,7 @@ module.exports = {
     ],
     "flowtype/delimiter-dangle": [
       "error",
-      "only-multiline",
+      "always-multiline",
     ],
     "flowtype/newline-after-flow-annotation": [
       "error",
