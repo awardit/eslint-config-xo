@@ -11,6 +11,7 @@ module.exports = {
     "eslint-plugin-graphql",
   ],
   rules: {
+    "ava/use-test": "off",
     "brace-style": [
       "error",
       "stroustrup",
