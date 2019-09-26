@@ -161,6 +161,7 @@ module.exports = {
       },
     ],
     "react/prefer-read-only-props": "off",
+    "react/require-default-props": "off",
     "unicorn/catch-error-name": [
       "error",
       {
