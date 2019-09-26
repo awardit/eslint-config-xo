@@ -20,3 +20,8 @@ Add the following to your `package.json`:
   }
 }
 ```
+
+## React and GraphQL lints
+
+React and GraphQL will only their lints if `react` and `graphql` modules are
+installed, respectively. This will avoid unnecessary depenencies or errors.
