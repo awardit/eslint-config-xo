@@ -118,6 +118,7 @@ var rules = {
   ],
   "no-case-declarations": "off",
   "no-eq-null": "off",
+  "no-negated-condition": "off",
   "no-unused-vars": [
     "error",
     {

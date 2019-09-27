@@ -4,6 +4,7 @@
   "description": "ESLint shareable config for CLS base code style, to be used with eslint-config-xo",
   "main": "index.js",
   "scripts": {
+    "prepack": "npm run test",
     "distclean": "rm -rf package-lock.json node_modules",
     "test": "eslint -c index.js *.js"
   },
