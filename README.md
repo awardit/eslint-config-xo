@@ -1,5 +1,7 @@
 # Crossroads Loyalty Solutions JavaScript Code Style
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/crossroads-loyalty-solutions/eslint-config-xo.svg)](https://greenkeeper.io/)
+
 ## Installation
 
 ```bash
