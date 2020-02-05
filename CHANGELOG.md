@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0 - 2020-02-05]
+### Changed
+- Package name changed from `@crossroads-loyalty-solutions/eslint-config-xo` to `@awardit/eslint-config-xo`.
+- Updated `eslint-config-xo-react` to 0.22.0
+- Updated `eslint-plugin-flowtype` to 4.6.0
+- Updated `eslint-plugin-graphql` to 3.1.1
+- Updated `eslint-plugin-prefer-arrow` to 1.1.7
+- Updated `eslint-plugin-react` to 7.18.3
+- Updated `eslint-plugin-react-hooks` to 2.3.0
+
 ## [0.2.8] - 2019-09-27
 ### Changed
 - Set ignoreRestSiblings on no-unused-vars
