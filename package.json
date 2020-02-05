@@ -1,6 +1,6 @@
 {
   "name": "@awardit/eslint-config-xo",
-  "version": "0.2.8",
+  "version": "0.3.0",
   "description": "ESLint shareable config for Awardit AB base code style, to be used with eslint-config-xo",
   "main": "index.js",
   "scripts": {
