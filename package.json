@@ -1,7 +1,7 @@
 {
-  "name": "@crossroads-loyalty-solutions/eslint-config-xo",
+  "name": "@awardit/eslint-config-xo",
   "version": "0.2.8",
-  "description": "ESLint shareable config for CLS base code style, to be used with eslint-config-xo",
+  "description": "ESLint shareable config for Awardit AB base code style, to be used with eslint-config-xo",
   "main": "index.js",
   "scripts": {
     "prepack": "npm run test",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crossroads-loyalty-solutions/eslint-config-xo-crossroads.git"
+    "url": "git+https://github.com/awardit/eslint-config-xo.git"
   },
   "keywords": [
     "eslint",
@@ -21,9 +21,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/crossroads-loyalty-solutions/eslint-config-xo-crossroads/issues"
+    "url": "https://github.com/awardit/eslint-config-xo/issues"
   },
-  "homepage": "https://github.com/crossroads-loyalty-solutions/eslint-config-xo-crossroads#readme",
+  "homepage": "https://github.com/awardit/eslint-config-xo#readme",
   "devDependencies": {
     "ava": "3.2.0",
     "graphql": "14.6.0",
