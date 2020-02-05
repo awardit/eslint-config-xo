@@ -1,11 +1,11 @@
-# Crossroads Loyalty Solutions JavaScript Code Style
+# Awardit AB JavaScript Code Style
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/crossroads-loyalty-solutions/eslint-config-xo.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/awardit/eslint-config-xo.svg)](https://greenkeeper.io/)
 
 ## Installation
 
 ```bash
-npm i -DE xo @crossroads-loyalty-solutions/eslint-config-xo
+npm i -DE xo @awardit/eslint-config-xo
 ```
 
 Add the following to your `package.json`:
@@ -17,7 +17,7 @@ Add the following to your `package.json`:
   },
   "xo": {
     "extends": [
-      "@crossroads-loyalty-solutions/eslint-config-xo"
+      "@awardit/eslint-config-xo"
     ]
   }
 }
