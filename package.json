@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/awardit/eslint-config-xo#readme",
   "devDependencies": {
-    "ava": "3.2.0",
+    "ava": "3.8.0",
     "graphql": "14.6.0",
     "xo": "0.25.3"
   },
